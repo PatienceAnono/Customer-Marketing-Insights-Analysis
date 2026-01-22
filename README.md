@@ -38,20 +38,26 @@ The dataset represents real e-commerce session-level data, including traffic sou
 
 
 ## 📁 Project Structure
-marketing-analytics-project/
+Customer-Marketing-Insights-Analysis/
+│
+├── session_customer_eda.ipynb
+│   → Exploratory data analysis of user sessions and customer behavior
+│
+├── customer_behavior.csv
+│   → Cleaned dataset containing session-level customer behavior metrics
+│
+├── marketing_performance.csv
+│   → Marketing channel performance data (traffic, conversions, revenue)
+│
+├── funnel_metrics.csv
+│   → Conversion funnel stages and drop-off metrics
+│
+├── product_performance.csv
+│   → Product-level sales and revenue performance data
+│
+└── README.md
+    → Project documentation and insights summary
 
-data
- marketing_performance.csv
-customer_behavior.csv
-product_performance.csv
- funnel_metrics.csv
-notebook/
- marketing_analytics_analysis.ipynb
-
-report/
- Executive_Report.pdf
-
- README.md
 
 
 ## 🔍 Analysis Workflow
