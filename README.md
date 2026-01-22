@@ -39,23 +39,23 @@ The dataset represents real e-commerce session-level data, including traffic sou
 
 ## 📁 Project Structure
 Customer-Marketing-Insights-Analysis/
-│
-├── session_customer_eda.ipynb
-│   → Exploratory data analysis of user sessions and customer behavior
-│
-├── customer_behavior.csv
-│   → Cleaned dataset containing session-level customer behavior metrics
-│
-├── marketing_performance.csv
-│   → Marketing channel performance data (traffic, conversions, revenue)
-│
-├── funnel_metrics.csv
-│   → Conversion funnel stages and drop-off metrics
-│
-├── product_performance.csv
-│   → Product-level sales and revenue performance data
-│
-└── README.md
+
+session_customer_eda.ipynb
+→ Exploratory data analysis of user sessions and customer behavior
+
+customer_behavior.csv
+ → Cleaned dataset containing session-level customer behavior metrics
+
+marketing_performance.csv
+ → Marketing channel performance data (traffic, conversions, revenue)
+
+funnel_metrics.csv
+ → Conversion funnel stages and drop-off metrics
+
+product_performance.csv
+ → Product-level sales and revenue performance data
+
+ README.md
     → Project documentation and insights summary
 
 
@@ -90,46 +90,45 @@ Visualizations were created to support insight discovery and interpretation.
 
 ## 📈 Key Insights
 
-### Marketing Performance
-- Revenue is concentrated among a small number of acquisition channels  
-- Some channels generate fewer sessions but significantly higher revenue per session  
-- Channel efficiency is more important than traffic volume alone
-  ### Customer Behavior
-- A small segment of customers contributes the majority of total revenue  
-- Customer revenue distribution is strongly right-skewed  
-- Higher engagement generally correlates with increased revenue  
-
-### Product Performance
-- A limited number of products dominate total revenue  
-- Long-tail products contribute minimally on an individual basis  
-- Opportunities exist for product bundling and targeted promotion  
-
-### Conversion Funnel
-- Significant drop-off occurs between sessions and product views  
-- Moderate conversion from product view to purchase  
-- Incremental improvements across the funnel could yield meaningful revenue growth
-  ## 🧠 Strategic Recommendations
-- Reallocate marketing spend toward high-efficiency channels  
-- Prioritize retention and personalization strategies for high-value customers  
-- Promote top-performing products and explore bundling opportunities  
-- Improve product discovery and checkout experience to reduce funnel drop-offs  
+- Marketing Channel Performance: Organic Search & Paid Search generated the most traffic, but Email & Referral channels showed higher conversion rates.
+- Customer Funnel Analysis: Largest drop-off occurred between Add to Cart → Checkout, suggesting friction in the checkout process.
+- Product Performance: Top products contributed over 60% of total revenue, highlighting focus areas for marketing campaigns.
+- Customer Segments: Returning customers demonstrated higher engagement and purchase frequency than new users, showing the value of loyalty programs.  
 
 
 
-## 📄 Executive Deliverable
-An executive-ready PDF report was created to communicate insights clearly to non-technical stakeholders, focusing on business impact and strategic decision-making.
+  
+  ## 🧠 Business Recommendations
+- Optimize the checkout process to reduce cart abandonment.  
+- Invest marketing spend in high-converting channels rather than only high-traffic channels.
+- Launch promotions or bundles for top-performing products to maximize revenue. 
+- Implement retention strategies to convert new customers into returning buyers.  
 
-See: `/report/Executive_Report.pdf`
-## 🚀 Why This Project Matters
-This project demonstrates:
-- Real-world SQL analytics using large-scale data  
-- Revenue-focused exploratory data analysis  
-- Strong separation of technical analysis and executive storytelling  
-- Consultant-style communication of insights and recommendations  
+ 
+ 
+ ## 📈 Technologies Used
+ - Python (Pandas, Matplotlib, Seaborn) – Data cleaning, manipulation, and visualization
+- Jupyter Notebook – Interactive exploratory data analysis
+- CSV files – Cleaned datasets for analysis
+- Git & GitHub – Version control and portfolio hosting
+
 
 
 
 ## 👤 Author
 Patience Anono  
-Data Analyst |  Data Consultant  
+Data Analytics & Marketing Insights | Kenya
 Focused on marketing analytics, customer insights and data-driven decision-making
+
+
+
+## 🖼 Visual Insights
+### Funnel Analysis
+![Funnel Drop-Off](images/funnel_dropoff.png)
+
+### Top Products Revenue
+![Top Products](images/top_products.png)
+
+### Marketing Channel Performance
+![Marketing Channels](images/marketing_channels.png)
+
