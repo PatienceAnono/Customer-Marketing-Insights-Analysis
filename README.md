@@ -26,15 +26,11 @@ The dataset represents real e-commerce session-level data, including traffic sou
 
 
 
-## 🛠️ Tools & Technologies
-- SQL (Google BigQuery) – Data extraction and aggregation  
-- Python (Jupyter Notebook) – Data analysis and EDA  
-  - pandas  
-  - matplotlib  
-- CSV – Data export and portability  
-- Google Docs – Executive reporting  
-- GitHub – Project documentation and version control  
-
+ ## 📈 Technologies Used
+ - Python (Pandas, Matplotlib, Seaborn) – Data cleaning, manipulation, and visualization
+- Jupyter Notebook – Interactive exploratory data analysis
+- CSV files – Cleaned datasets for analysis
+- Git & GitHub – Version control and portfolio hosting
 
 
 ## 📁 Project Structure
