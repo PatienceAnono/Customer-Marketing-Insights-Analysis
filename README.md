@@ -124,11 +124,11 @@ Focused on marketing analytics, customer insights and data-driven decision-makin
 
 ## 🖼 Visual Insights
 ### Funnel Analysis
-![Funnel Drop-Off](images/funnel_dropoff.png)
+![Funnel Drop-Off](images/funnel_dropoff)
 
 ### Top Products Revenue
-![Top Products](images/top_products.png)
+![Top Products](images/top_products)
 
 ### Marketing Channel Performance
-![Marketing Channels](images/marketing_channels.png)
+![Marketing Channels](images/marketing_channels)
 
